@@ -11,7 +11,7 @@ async function vizualizaDadosGlobais(){
     const paragrafo = document.createElement ('p');
     paragrafo.classList.add('graficos-texto');
     const container = document.getElementById('graficos-container')
-    paragrafo.innerHTML = `No mundo tem ${total_pessoas_mundo} bilhões de habitantes, dos quais ${total_pessoas_conctadas} estão conectados em alguma rede social por um tempo médio de ${tempo_medio} minutos.`
+    paragrafo.innerHTML = `No mundo tem <span> ${total_pessoas_mundo} bilhões </span> de habitantes, dos quais <span> ${total_pessoas_conctadas} bilhões </span> estão conectados em alguma rede social por um tempo médio de <span> ${tempo_medio} horas </span>.`
     container.appendChild(paragrafo);
 
 }

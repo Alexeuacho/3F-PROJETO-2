@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
 :root{
-    --cor-de-fundo:#697565;
-    --cor-primaria:#181C14;
-    --cor-secundária:#ECDFCC;
+    --cor-de-fundo:#88917d;
+    --cor-primaria:#20241b;
+    --cor-secundária:#ffffff;
     --fonte: "Sofadi One", system-ui;
 }
 
@@ -18,10 +18,12 @@ body{
     height: 100vh;
     font-family: var(--fonte);
 }
+
 header{
     background-color: var(--cor-primaria);
     text-align: center;
 }
+
 h1{
     color: var(--cor-de-fundo);
     font-size: 2rem;
@@ -32,14 +34,38 @@ nav{
    justify-content: center;
    font-weight: 400;
 }
+
 nav a{
     text-decoration: none;
     color: var(--cor-de-fundo);
     margin: 0 0.5rem 0.5rem 0;
     font-size: 1.2rem;
 }
+
 nav a:hover{
     text-decoration: underline;
     transform: scale(0.9);
     transition: transform 0.9s;
+}
+
+span{
+    color: var(--cor-secundária);
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-fundo);
+    text-align: center;
+}
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-texto{
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 2rem;
+  border: var(--cor-secundária) solid 2px;
 }
